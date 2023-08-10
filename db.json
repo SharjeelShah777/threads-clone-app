@@ -1,0 +1,120 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "user_uuid": "3c5ca50c-727e-4fbc-8cff-b75675985df7",
+            "username": "Sharjeel Ahmed Shah",
+            "handles": "codeWithSherry",
+            "bio": "Full-Stack Developer",
+            "link": "portfolifyme.netlify.app",
+            "image": "https://imgur.com/gallery/McciRKQ",
+            "instagram_url": "https://www.instagram.com/sharjeel_ahmed_shah7/",
+            "followers": [
+                {
+                    "user_uuid": "3c5ca50c-727e-4fbc-8cff-b75675985df7"
+                },
+                {
+                    "user_uuid": "16032c7c-0d52-4419-95b1-de0915a6565d"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "user_uuid": "47965f0f-19a1-4450-869f-133f9cc97b62",
+            "username": "M.Amir",
+            "handles": "codeWithSherry",
+            "bio": "Full-Stack Developer",
+            "link": "portfolifyme.netlify.app",
+            "image": "https://imgur.com/gallery/McciRKQ",
+            "instagram_url": "https://www.instagram.com/sharjeel_ahmed_shah7/",
+            "followers": [
+                {
+                    "user_uuid": "6e7cc42c-c7b0-4b7c-aadf-ef3c4aedfd38"
+                },
+                {
+                    "user_uuid": "ce20d351-0f39-467f-ade0-964b7f12ff60"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "user_uuid": "01540192-ae14-41ba-89e7-058c154b658e",
+            "username": "Berlin",
+            "handles": "codeWithSherry",
+            "bio": "Actor",
+            "link": "portfolifyme.netlify.app",
+            "image": "https://imgur.com/gallery/McciRKQ",
+            "instagram_url": "https://www.instagram.com/sharjeel_ahmed_shah7/",
+            "followers": [
+                {
+                    "user_uuid": "450b5d03-dbac-4979-a9f8-443684ac685e"
+                },
+                {
+                    "user_uuid": "fc1580ae-2641-4d7f-991c-7d0c3e9f16ae"
+                }
+            ]
+        }
+    ],
+    "threads": [
+        {
+            "id": 0,
+            "timestamp": "Thu Aug 10 2023 20:58:45 GMT+0500 (Pakistan Standard Time)",
+            "thread_from": "3c5ca50c-727e-4fbc-8cff-b75675985df7",
+            "thread_to": "null",
+            "reply_to": "null",
+            "text": "Hello World for threads",
+            "likes":[
+                {
+                    "uuid":"47965f0f-19a1-4450-869f-133f9cc97b62"
+                },
+                {
+                    "uuid":"01540192-ae14-41ba-89e7-058c154b658e"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "timestamp": "Thu Aug 10 2023 17:18:45 GMT+0500 (Pakistan Standard Time)",
+            "thread_from": "3c5ca50c-727e-4fbc-8cff-b75675985df7",
+            "thread_to": "null",
+            "reply_to": "null",
+            "text": "Awesome bro!",
+            "likes":[
+               
+            ]
+        },
+        {
+            "id": 2,
+            "timestamp": "Thu Aug 10 2023 17:18:45 GMT+0500 (Pakistan Standard Time)",
+            "thread_from": "3c5ca50c-727e-4fbc-8cff-b75675985df7",
+            "thread_to": "null",
+            "reply_to": "null",
+            "text": "Awesome thread!",
+            "likes":[
+               
+            ]
+        },
+        {
+            "id": 3,
+            "timestamp": "Thu Aug 10 2023 23:18:45 GMT+0500 (Pakistan Standard Time)",
+            "thread_from": "3c5ca50c-727e-4fbc-8cff-b75675985df7",
+            "thread_to": "null",
+            "reply_to": "null",
+            "text": "Another thread!",
+            "likes":[
+               
+            ]
+        },
+        {
+            "id": 4,
+            "timestamp": "Thu Aug 10 2023 23:18:45 GMT+0500 (Pakistan Standard Time)",
+            "thread_from": "3c5ca50c-727e-4fbc-8cff-b75675985df7",
+            "thread_to": "01540192-ae14-41ba-89e7-058c154b658e",
+            "reply_to": "3",
+            "text": "Excited thread!",
+            "likes":[
+               
+            ]
+        }
+    ]
+}

@@ -2,7 +2,7 @@ import React from "react"
 import PopupThread from "./PopUpThread"
 import ThreadInput from "./ThreadInput"
 
-function PopUp() {
+const PopUp = () => {
   return (
     <div className='popup'>
       <PopupThread/>

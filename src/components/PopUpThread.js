@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PopUpThread() {
+const PopUpThread = () => {
   return (
     <article className='feed-card'></article>
   )

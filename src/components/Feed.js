@@ -1,7 +1,7 @@
 import React from "react"
 import Thread from "./Thread"
 
-function Feed() {
+const Feed = () => {
   return (
     <div className='feed'>
       <Thread/>

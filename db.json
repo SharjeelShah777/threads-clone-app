@@ -5,9 +5,9 @@
             "user_uuid": "3c5ca50c-727e-4fbc-8cff-b75675985df7",
             "username": "Sharjeel Ahmed Shah",
             "handles": "codeWithSherry",
-            "bio": "Full-Stack Developer",
-            "link": "portfolifyme.netlify.app",
-            "image": "https://imgur.com/gallery/McciRKQ",
+            "bio": "Simplicity is the ultimate sophistication🖤  Web Developer",
+            "link": "https://portfolifyme.netlify.app/",
+            "img": "https://imgur.com/QvICKE3.jpg",
             "instagram_url": "https://www.instagram.com/sharjeel_ahmed_shah7/",
             "followers": [
                 {
@@ -21,12 +21,12 @@
         {
             "id": 1,
             "user_uuid": "47965f0f-19a1-4450-869f-133f9cc97b62",
-            "username": "M.Amir",
-            "handles": "codeWithSherry",
-            "bio": "Full-Stack Developer",
+            "username": "Waseem Malik",
+            "handles": "X-Y-X",
+            "bio": "MernS-Stack Developer",
             "link": "portfolifyme.netlify.app",
-            "image": "https://imgur.com/gallery/McciRKQ",
-            "instagram_url": "https://www.instagram.com/sharjeel_ahmed_shah7/",
+            "img": "https://imgur.com/gallery/McciRKQ",
+            "instagram_url": "https://www.instagram.com/sharjeelahmedshah25/",
             "followers": [
                 {
                     "user_uuid": "6e7cc42c-c7b0-4b7c-aadf-ef3c4aedfd38"
@@ -43,8 +43,8 @@
             "handles": "codeWithSherry",
             "bio": "Actor",
             "link": "portfolifyme.netlify.app",
-            "image": "https://imgur.com/gallery/McciRKQ",
-            "instagram_url": "https://www.instagram.com/sharjeel_ahmed_shah7/",
+            "img": "https://imgur.com/gallery/McciRKQ",
+            "instagram_url": "https://www.instagram.com/alvaromorte/",
             "followers": [
                 {
                     "user_uuid": "450b5d03-dbac-4979-a9f8-443684ac685e"

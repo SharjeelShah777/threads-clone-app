@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Thread() {
+const Thread = () => {
   return (
     <article className='feed-card'>
       <div className="text-container">

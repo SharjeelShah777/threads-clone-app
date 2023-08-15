@@ -1,4 +1,4 @@
-body{
+body {
     margin: 5rem;
     padding: 0;
     background-color: rgb(0, 0, 0);
@@ -6,138 +6,162 @@ body{
     justify-content: center;
     height: 100vh;
     align-items: center;
-    color: rgb(250,250,250);
-    font-family: arial,sans-serif;
+    color: rgb(250, 250, 250);
+    font-family: arial, sans-serif;
 }
-.App{
+
+.App {
     position: relative;
-    height: 750px;
-    width: 350px;
+    /* height: 750px;
+    width: 350px; */
+    height: 650px;
+    width: 380px;
     border-radius: 40px;
-    background-color: rgb(38,38,38);
-    padding: 20px; 
+    background-color: rgb(38, 38, 38);
+    padding: 20px;
     /* overflow-y: ; */
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     /* padding: 5px 0px; */
 }
-svg{
-    fill: rgb(250,250,250);
+
+svg {
+    fill: rgb(250, 250, 250);
 }
+
 /* h1,h2,p{
     padding: 3px;
 } */
-h1{
+h1 {
     font-size: 18px;
 }
-.sub-text{
-    color: rgb(114,114,114);
+
+.sub-text {
+    color: rgb(114, 114, 114);
 }
-a{
+
+a {
     text-decoration: none;
-    color: rgb(114,114,114);
+    color: rgb(114, 114, 114);
 }
-header .info-container{
+
+header .info-container {
     display: flex;
     justify-content: space-between;
     margin: 1em;
 }
-header .img-container{
+
+header .img-container {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     overflow: hidden;
 }
-header .img-container img{
+
+header .img-container img {
     height: 110%;
 }
 
-header .threads-info{
-    background-color: rgb(59,59,59);
-    color: rgb(114,114,114);
+header .threads-info {
+    background-color: rgb(59, 59, 59);
+    color: rgb(114, 114, 114);
     font-size: 13px;
     padding: 3px 6px;
     border-radius: 20px;
 }
-button.primary{
-    border: rgb(114,114,114) solid 1px;
+
+button.primary {
+    border: rgb(114, 114, 114) solid 1px;
     background-color: transparent;
     padding: 7px;
     margin: 15px 0px;
     border-radius: 7px;
-    color: rgb(250,250,250);
+    color: rgb(250, 250, 250);
     font-weight: bold;
     width: 100%;
 }
-.button-container button{
+
+.button-container button {
     border: none;
     background-color: transparent;
-    color: rgb(250,250,250);
+    color: rgb(250, 250, 250);
     font-weight: bold;
     width: 50%;
-    border-bottom: 1px solid rgb(114,114,114);
+    border-bottom: 1px solid rgb(114, 114, 114);
     padding: 7px;
 }
-.button-container button.current{
-    border-bottom: 2px solid rgb(250,250,250);
+
+.button-container button.current {
+    border-bottom: 2px solid rgb(250, 250, 250);
 
 }
-.feed-card{
-    border-bottom:1px solid rgb(114,114,114) ;
+
+.feed-card {
+    border-bottom: 1px solid rgb(114, 114, 114);
     /* padding: 5px 0; */
 }
-.feed-card .icons svg{
+
+.feed-card .icons svg {
     padding: 0px 5px;
     height: 20px;
 
 }
-.feed-card .text-container{
+
+.feed-card .text-container {
     display: flex;
     justify-content: space-between;
 
 }
-.feed-card .img-container{
+
+.feed-card .img-container {
     height: 30px;
     width: 30px;
     overflow: hidden;
     border-radius: 50%;
 }
-.feed-card .img-container img{
+
+.feed-card .img-container img {
     height: 110%;
 }
-.feed{
-    height: 400px;
+
+.feed {
+    height: 350px;
+    /* height: 400px; */
     overflow-y: scroll;
 }
-input{
+
+input {
     background-color: transparent;
-    border: 1px solid rgb(114,114,114);
+    border: 1px solid rgb(114, 114, 114);
     margin: 10px 0;
     padding: 10px;
     box-sizing: border-box;
     width: 100%;
-    color: rgb(250,250,250);
+    color: rgb(250, 250, 250);
     border-radius: 5px;
 
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
-.popup{
+
+.popup {
     position: absolute;
     bottom: 0;
     left: 0;
     height: 650px;
     width: 380px;
-    background-color: rgb(38,38,38);
+    background-color: rgb(38, 38, 38);
     border-radius: 40px;
     padding: 20px;
     overflow-y: scroll;
-    box-shadow: rgba(0, 0, 0, 0.1)0 54px,55px,
-    rgba(0, 0, 0, 0.12)0 -12px,30px, 
-    rgba(0, 0, 0, 0.12)0 4px, 6px,
-    rgba(0, 0, 0, 0.17)0 12px,13px
-    ;
+    box-shadow: rgba(0, 0, 0, 0.1)0 54px, 55px,
+        rgba(0, 0, 0, 0.12)0 -12px, 30px,
+        rgba(0, 0, 0, 0.12)0 4px, 6px,
+        rgba(0, 0, 0, 0.17)0 12px, 13px,
+        rgba(0, 0, 0, 0.9)0 -3px, 5px;
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ThreadInput() {
+const ThreadInput = () => {
   return (
     
     <>
